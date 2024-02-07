@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./palov_2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+/* body:hover{
+    background-image:url(./hqdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;   
+} */
+h1{
+    font-size: 55px;
+    color: gold;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 221, 0);
+    font-size: 40px;
+}
+a:hover{
+    color: red;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+.box2{
+    background-color: gold;
+}
+.box{
+    text-align: center;
+}

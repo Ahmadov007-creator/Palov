@@ -1,0 +1,111 @@
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+body{
+    background-color: gold;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+ul{
+    font-size: 25px;
+}
+
+ol{
+    font-size: 25px;
+}
+b{
+    font-size: 25px ;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.img_box{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box_1{
+    width: 300px;
+    height: 200px;
+}
+.box_two{
+    width: 400px;
+    height: 300px;
+}
+.img_one{
+    background-image: url(./Без\ названия.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_two{
+    background-image: url(./one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.img_three{
+    background-image: url(./Без\ названия\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_four{
+    background-image: url(three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_five{
+    background-image: url(five.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_box2{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    background-image: url(./Palov_1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.img2{
+    background-image: url(./palov_2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    background-image: url(./recipe_b0664753-47f2-4ed1-86a9-1bdbe3d8d354_w450.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    padding: 5px;
+}
+.burger p{
+    background-color: red;
+    width: 8px;
+    height: 1px;
+    border-radius: 5px;
+}
+.box_burger{
+    display: flex;
+}
